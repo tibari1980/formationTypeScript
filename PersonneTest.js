@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var Personne_1 = require("./Personne");
+var personne = new Personne_1.Personne();
+personne.setNom('ZEROUAL');
+personne.setPrenom('Tibari');
+personne.setAge(50);
+console.log('===============affiche info Personne=======================');
+personne.showPersonne();
+console.log('===============================Après modification=======================');
+personne.setNom('Boudarga');
+personne.setPrenom('BACHA');
+personne.setAge(60);
+personne.showPersonne();
